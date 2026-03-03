@@ -22,7 +22,7 @@ Training-free cascaded retrieval architecture for large-scale tabular question a
 
 FAISS-HNSW indexing + hybrid sparse/dense retrieval over 1M+ tables. The boring parts — latency, cost, quantized inference — matter too.
 
-- 🟢 **95%+ recall@20** over 1M+ tables
+- 🟢 Scaled retrieval to 1Million+ tables,passages while maintaining **87%+ Recall@10 and 96%+ Recall@50**
 
 ---
 
