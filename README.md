@@ -12,7 +12,7 @@ I work on retrieval systems that actually scale — RAG pipelines over million-t
 
 Training-free cascaded retrieval architecture for large-scale tabular question answering.
 
-- 🟡 **33× embedding cost reduction**
+- 🟡 **80% token** coonsumption reduced on Table QA
 - 🏆 **SOTA** on large-scale benchmarks
 
 ---
