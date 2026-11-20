@@ -78,9 +78,9 @@ The three papers below cover one retrieval stack end to end:
 
 ```mermaid
 flowchart LR
-    A["<b>Retrieve</b><br/>CRAFT<br/>training-free cascade"] --> B["<b>Stabilise</b><br/>serialization-robust<br/>table embeddings"]
-    B --> C["<b>Rerank</b><br/>EKLAV<br/>reasoning-distilled"]
-    C --> D["<b>Serve and evaluate</b><br/>vLLM harnesses<br/>Forge and HETU"]
+    A["Retrieve: CRAFT, training-free cascade"] --> B["Stabilise: serialization-robust table embeddings"]
+    B --> C["Rerank: EKLAV, reasoning-distilled"]
+    C --> D["Serve and evaluate: vLLM harnesses, Forge and HETU"]
 ```
 
 ### CRAFT: Training-Free Cascaded Retrieval for Tabular QA
