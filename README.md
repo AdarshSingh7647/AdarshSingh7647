@@ -76,12 +76,13 @@ As Founding Engineer (Machine Learning) at **Noah Labs**, maker of Sentinel Stud
 
 The three papers below cover one retrieval stack end to end:
 
-```mermaid
-flowchart LR
-    A["Retrieve: CRAFT, training-free cascade"] --> B["Stabilise: serialization-robust table embeddings"]
-    B --> C["Rerank: EKLAV, reasoning-distilled"]
-    C --> D["Serve and evaluate: vLLM harnesses, Forge and HETU"]
-```
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdarshSingh7647/AdarshSingh7647/main/assets/flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdarshSingh7647/AdarshSingh7647/main/assets/flow-light.svg">
+  <img alt="Retrieve with CRAFT, stabilise table embeddings, rerank with EKLAV, then serve and evaluate with Forge and HETU" src="https://raw.githubusercontent.com/AdarshSingh7647/AdarshSingh7647/main/assets/flow-light.svg" width="100%">
+</picture>
+</div>
 
 ### CRAFT: Training-Free Cascaded Retrieval for Tabular QA
 

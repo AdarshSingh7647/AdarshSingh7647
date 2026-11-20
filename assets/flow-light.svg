@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 124" width="1000" height="124" role="img" aria-labelledby="t">
+  <title id="t">Retrieve with CRAFT, stabilise table embeddings, rerank with EKLAV, then serve and evaluate with Forge and HETU</title>
+  <defs>
+    <linearGradient id="g-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8faff"/><stop offset="0.55" stop-color="#edf1ff"/><stop offset="1" stop-color="#e4f6fb"/>
+    </linearGradient>
+    <linearGradient id="g-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5646e0"/><stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="g-funnel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5646e0" stop-opacity="0.06"/><stop offset="1" stop-color="#0891b2" stop-opacity="0.16"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#0b1020" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="halo" cx="0.82" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#5646e0" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#5646e0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="round"><rect width="1000" height="124" rx="18"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .pulse { animation: pulse 3.2s ease-in-out infinite; }
+    .flow  { animation: flow 5s linear infinite; }
+    @keyframes pulse { 0%,100% { opacity: .65; } 50% { opacity: 1; } }
+    @keyframes flow  { to { stroke-dashoffset: -90; } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .flow { animation: none; } }
+  </style>
+  <rect x="0.0" y="0.5" width="215.5" height="123" rx="14" fill="#ffffff" stroke="#d5dcf2"/><text x="18.0" y="28" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4b5782">RETRIEVE</text><text x="18.0" y="62" font-size="24" font-weight="800" fill="url(#g-accent)">CRAFT</text><text x="18.0" y="87" font-size="13" fill="#0b1020" fill-opacity="0.85">training-free cascade</text><text x="18.0" y="105" font-size="13" fill="#4b5782">SPLADE → dense → rerank</text><path class="flow" d="M224.5 62.0 H245.5" stroke="#0891b2" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5" fill="none"/><path d="M244.5 57.0 L252.5 62.0 L244.5 67.0 Z" fill="#0891b2"/><rect x="261.5" y="0.5" width="215.5" height="123" rx="14" fill="#ffffff" stroke="#d5dcf2"/><text x="279.5" y="28" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4b5782">STABILISE</text><text x="279.5" y="62" font-size="24" font-weight="800" fill="url(#g-accent)">Stability</text><text x="279.5" y="87" font-size="13" fill="#0b1020" fill-opacity="0.85">serialization-robust</text><text x="279.5" y="105" font-size="13" fill="#4b5782">table embeddings</text><path class="flow" d="M486.0 62.0 H507.0" stroke="#0891b2" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5" fill="none"/><path d="M506.0 57.0 L514.0 62.0 L506.0 67.0 Z" fill="#0891b2"/><rect x="523.0" y="0.5" width="215.5" height="123" rx="14" fill="#ffffff" stroke="#d5dcf2"/><text x="541.0" y="28" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4b5782">RERANK</text><text x="541.0" y="62" font-size="24" font-weight="800" fill="url(#g-accent)">EKLAV</text><text x="541.0" y="87" font-size="13" fill="#0b1020" fill-opacity="0.85">reasoning-distilled</text><text x="541.0" y="105" font-size="13" fill="#4b5782">pointwise and listwise</text><path class="flow" d="M747.5 62.0 H768.5" stroke="#0891b2" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5" fill="none"/><path d="M767.5 57.0 L775.5 62.0 L767.5 67.0 Z" fill="#0891b2"/><rect x="784.5" y="0.5" width="215.5" height="123" rx="14" fill="#ffffff" stroke="#d5dcf2"/><text x="802.5" y="28" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4b5782">SERVE AND EVALUATE</text><text x="802.5" y="62" font-size="24" font-weight="800" fill="url(#g-accent)">Forge · HETU</text><text x="802.5" y="87" font-size="13" fill="#0b1020" fill-opacity="0.85">vLLM harnesses</text><text x="802.5" y="105" font-size="13" fill="#4b5782">post-training and evals</text>
+</svg>
